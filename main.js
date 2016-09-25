@@ -7,7 +7,7 @@ image.style.float = "left";
 var timer = setInterval(function(){
     insertThumbnail();
 
-    if(image.src){
+    if (image.src) {
         clearInterval(timer);
     }
 }, 1000);
