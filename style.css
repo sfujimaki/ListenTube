@@ -1,0 +1,56 @@
+/*
+ * トップページ
+ * ------------------------------- */
+
+#page.home {
+    display:none;
+}
+
+/*
+ * 動画ページ
+ * ------------------------------- */
+
+/*
+ * レイアウト
+ * --------------- */
+
+/* メインカラム幅を100%にして中央寄せ*/
+#page.watch  .watch-main-col {
+   width:100%;
+    float:none;
+}
+
+/* サイドバー */
+#page.watch .watch-sidebar {
+    margin: 0 auto;
+    top:10px;
+}
+
+/* コメント部分を隠す */
+#page.watch #watch-discussion{
+    display:none;
+}
+
+/*
+ * プレイヤー部分
+ * --------------- */
+
+/* プレイヤーの高さを設定 */
+#page.watch .player-height {
+    height: 150px;
+}
+
+/* 広告表示エリアの高さを設定 */
+#page.watch .ad-container-single-media-element-annotations{
+    height:150px !important;
+}
+
+/* ビデオのシークバー&ボタン群を常に表示させる */
+#page.watch .ytp-chrome-bottom {
+    opacity:1;
+}
+
+/* ビデオの中身を消す */
+#page.watch .video-stream {
+   display:none;
+}
